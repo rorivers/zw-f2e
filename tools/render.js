@@ -22,7 +22,7 @@ import runServer from './runServer';
 //   '/page/name/', // => build/public/page/name/index.html
 // ];
 const routes = [
-  '/',
+  // '/',
   '/contact',
   '/login',
   '/register',
