@@ -9,24 +9,19 @@
 
 import React from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
-import s from './Navigation.css';
-import placeholderImg from './img/navbar.jpg';
+import s from './Topbar.css';
+import placeholderImg from './img/topbar.jpg';
 
-class Navigation extends React.Component {
+class Topbar extends React.Component {
   render() {
     return (
       <div className={s.root} role="navigation">
         <div className={s.imgWrapper}>
-          <img
-            src={placeholderImg}
-            width="1120"
-            height="88"
-            alt="Navigation img"
-          />
+          <img src={placeholderImg} width="1120" height="37" alt="Topbar img" />
         </div>
       </div>
     );
   }
 }
 
-export default withStyles(s)(Navigation);
+export default withStyles(s)(Topbar);

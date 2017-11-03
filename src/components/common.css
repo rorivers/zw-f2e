@@ -1,0 +1,38 @@
+.root {
+  float: left;
+}
+
+.root::before,
+.root::after {
+  content: '';
+  clear: both;
+  font-size: 0;
+}
+
+.root > .content {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.row {
+  float: left;
+}
+
+.row::before,
+.row::after {
+  content: '';
+  clear: both;
+  font-size: 0;
+}
+
+.col {
+  display: inline-block;
+}
+
+.imgWrapper {
+  font-size: 0;
+}
+
+.imgWrapper > img {
+  width: 100%;
+}
